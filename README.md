@@ -1,7 +1,5 @@
-dev-tools
+Practical Chrome Dev-Tools Guide
 =========
-
-Practical Chrome Dev-Tools Guide Presentation
 
  - Introduction
  
