@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+          
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+  <head>
+    <title>Presentation</title>
+    <meta charset='utf-8'>
+    <script src='http://html5slides.googlecode.com/svn/trunk/slides.js'></script>
+  </head>
+  <style>
+    /* Your individual styles here, or just use inline styles if that’s
+       what you want. */
+  </style>
+  <body style='display: none'>
+    <section class='slides layout-regular template-default'>
+	<!-- Your slides (<article>s) go here. Delete or comment out the
+	   slides below. -->
+		<article>
+			<img src="https://d3pr5r64n04s3o.cloudfront.net/tuts/370_dev_tools/google-developers-logo-vector.jpg"/>
+			<h2>
+			  Practical Chrome Dev-Tools Guide
+			</h2>
+		</article>
+		<article>
+			<h2>
+			  Introduction
+			</h2>
+			<p>
+				<img src="https://d3pr5r64n04s3o.cloudfront.net/tuts/370_dev_tools/google-developers-logo-vector.jpg"/>
+			</p>
+		</article>
+		<article>
+			<p>
+			  What's Dev-Tools?
+			</p>
+			<br/>
+			<br/>
+			<div class="build">
+			  <p>The Chrome Developer Tools (DevTools for short), are a set web authoring and debugging tools built into Google Chrome.</p>
+			  <br/>
+			  <p>The DevTools provide web developers deep access into the internals of the browser and their web application.</p>
+			</div>
+		</article>
+		<article>
+			<h2>
+			  Styling Control & CSS Manipulation
+			</h2>
+			<div class="build">
+			  <p>The Elements panel lets you see everything in one DOM tree, and allows inspection and on-the-fly editing of DOM elements.</p>
+			  <br/>
+			  <p>You will often visit the Elements tabs when you need to identify the HTML snippet for some aspect of the page.</p>
+			  <br/>
+			  <p>For example, you may be curious if an image has an HTML id attribute, and what that attribute's value is.</p>
+			</div>
+		</article>
+		<article>
+			<h2>
+			  Environmental Inspection with Resources Panel
+			</h2>
+			<div class="build">
+				<p>The Resources panel lets you inspect your application's local data sources, including IndexedDB or Web SQL databases, local and session storage, cookies, and Application Cache resources. </p>
+				<br/>
+				<p>You can also quickly inspect your application's visual resources, including images, fonts and and style sheets.</p>
+			</div>
+		</article>
+		<article>
+			<h2>
+			  Network Interaction
+			</h2>
+			<div class="build">
+			  <p>The Network panel records information about each network operation in your application, including detailed timing data, HTTP request and response headers, cookies, WebSocket data, and more.</p>
+			  <br/>
+			  <p>The Network panel helps you answer questions about the network performance of your web application, such as:</p>
+			</div>
+		</article>
+		<article>
+			<img src="https://d3pr5r64n04s3o.cloudfront.net/tuts/370_dev_tools/google-developers-logo-vector.jpg"/>
+			<div class="build">
+			  <p>Which resource had the slowest time to first byte?</p>
+			  <br/>
+			  <p>Which resources took the longest time to load (duration)?</p>
+			  <br/>
+			  <p>Who initiated a particular network request?</p>
+			  <br/>
+			  <p>How much time was spent in the various network phases for a particular resource?</p>
+			</div>
+		</article>
+		<article>
+			<h2>
+			  Script Debugging with Sources Panel
+			</h2>
+			<div class="build">
+			  <p>As the complexity of JavaScript applications increase, developers need powerful debugging tools to help quickly discover the cause of an issue and fix it efficiently.</p>
+			  <br/>
+			  <p>The Chrome DevTools include a number of useful tools to help make debugging JavaScript less painful.</p>
+			</div>
+		</article>
+		<article>
+			<h2>
+			  Using Console & Console API
+			</h2>
+			<p>
+				The JavaScript Console provides two primary functions for developers testing web pages and applications:
+			</p>
+		</article>
+		<article>
+			<h2>
+			  Using Console & Console API
+			</h2>
+			<div class="build">
+				<p>
+					A place to log diagnostic information using methods provided by the Console API, such as console.log(), or console.profile().
+				</p>
+				<p>
+					A shell prompt where you can enter commands and interact with the document and the Chrome DevTools.
+				</p>
+				<p>
+					You can evaluate expressions directly in the Console, and can also use the methods provided by the Command Line API, such as $() command for selecting elements, or profile() to start the CPU profiler.
+				</p>
+			</div>
+		</article>
+		<article>
+			<h2>
+			  Timeline, Profiles and Audits for App Performance Inspection
+			</h2>
+			<div class="build">
+				<p>
+					The Timeline panel lets you record and analyze all the activity in your application as it runs. 
+				</p>
+				<br/>
+				<p>
+					It's the best place to start investigating perceived performance issues in your application.
+				</p>
+			</div>
+		</article>
+		<article>
+			<h2>
+			  Extension API for Developing Dev-Tools Apps
+			</h2>
+			<img src="https://d3pr5r64n04s3o.cloudfront.net/tuts/370_dev_tools/google-developers-logo-vector.jpg"/>
+			<br/>
+			<div class="build">
+				<p>
+					Chrome provides APIs such as chrome.bookmarks and chrome.tab so that extensions can interact with the browser.
+				</p>
+			</div>
+		</article>
+		<article>
+			<h1>
+			  Thanks!
+			</h1>
+			<br/>
+			<div>
+				@hwclass
+			</div>
+		</article>
+    </section>
+  </body>
+</html>
