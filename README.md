@@ -1,5 +1,4 @@
 ##Chrome Dev-Tools Guide Presentation
-=========
 
 <i>This presentation made to be presented at markafoni.</i>
 
