@@ -3,7 +3,7 @@
 
 <i>This presentation made to be presented at markafoni.</i>
 
-#Contents
+###Contents
  - Introduction
  - What's Dev-Tools?
  - Styling Control & CSS Manipulation
